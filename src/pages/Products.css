@@ -1,0 +1,296 @@
+
+
+
+
+section {
+    margin-top: 108px;
+    margin-bottom: 108px;
+}
+
+section .hero  {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    column-gap: 64px;
+}
+
+section .hero .hero-article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    justify-content: flex-start;
+}
+
+section .hero .hero-article .hero-title{
+    color: var(--font-secondary-color);
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+section .hero .hero-article .hero-subtitle {
+    font-family: tiempos,Georgia,Cambria,Palatino,"Times New Roman",Times,serif;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -0.9px;
+    font-size: 3rem;
+    text-align: left;
+    word-break: break;
+}
+
+section .hero .hero-article p {
+    font-family: 'Inter',sans-serif;
+    font-size: 0.95rem;
+    color: var(--font-paragraph-color);
+    font-weight: 400;
+    line-height: 1.67;
+}
+
+section .hero .hero-article .article-signup-btn a{
+    width: max-content;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 0.825rem;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    padding: 8px 24px;
+    border-radius: 32px;
+}
+
+
+
+section .product-motto .motto-header {
+    padding: 40px;
+}
+
+.text-header {
+    font-family: tiempos,Georgia,Cambria,Palatino,"Times New Roman",Times,serif;
+    text-align: center;
+    letter-spacing: -0.04rem;   
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 2.3rem;
+    color: var(--font-primary-color);
+}
+
+.text-subheader {
+    text-align: center;
+    color: var(--font-paragraph-color);
+    font-size: 1.2rem;
+
+}
+
+section .product-motto .card-container {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    column-gap: 64px;
+}
+
+section .product-motto .card-container .card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .product-motto .card-container .card-item figure{
+    width: 44.8px;
+    height: 44.8px;
+    vertical-align: center;
+}
+
+section .product-motto .card-container .card-item figure picture{
+    width: 100%;
+    height: auto;
+    vertical-align: center;
+}
+
+section .product-motto .card-container .card-item figure picture img{
+    width: 100%;
+    height: auto;
+    vertical-align: center;
+    border-radius: 8px;
+}
+section .product-motto .card-container .card-item h2{
+    font-family: tiempos,Georgia,Cambria,Palatino,"Times New Roman",Times,serif;
+    font-weight: 500;
+    font-size: 1.45rem;
+    line-height: 1.45;
+    text-align: center;
+}
+
+section .product-motto .card-container .card-item p{
+    font-weight: 400;
+    line-height: 1.7rem;
+    font-size: 1rem;
+    color: var(--font-primary-color);
+    text-align: center;
+}
+
+section .container .online-courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+section .container .showcase h1 {
+    color: var(--font-secondary-color);
+    font-size: 0.666rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+section .container .showcase h2 {
+    font-family: tiempos,Georgia,Cambria,Palatino,"Times New Roman",Times,serif;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+}
+
+section .container .showcase p {
+    color: var(--font-paragraph-color);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+section .container .showcase a {
+    font-weight: 500;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    line-height: 1.45rem;
+}
+
+section .container .showcase a:hover {
+    color: var(--primary-darker-color);
+}
+
+section .container .banner-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #201445;
+    color: #fff;
+    border-radius: 8px;
+}
+
+section .container .banner-wrapper h2 {
+    font-family:tiempos,Georgia,Cambria,Palatino,"Times New Roman",Times,serif;
+    margin-bottom: 4px;
+    letter-spacing: -0.01rem;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.45;
+    font-weight: 500;
+}
+
+section .container .banner-wrapper p {
+    text-align: center;
+    color: #d7d2e8;
+    font-size: 1.2rem;
+}
+
+section .container .banner-wrapper a {
+
+    padding: 12px 20px;
+    font-weight: 500;
+    background-color: #9484c6;
+    border-radius: 32px;
+}
+
+section .container .banner-wrapper a:hover{
+    background-color: #4b2aad;
+}
+
+section .container .star-rate-wrapper {
+    display: flex;
+    row-gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container .star-rate-wrapper .quote-wrapper {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.3;
+
+
+}
+
+.showcase {
+    display: flex;
+    column-gap: 64px;
+}
+
+.showcase-article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 16px;
+}
+
+.showcase-figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.showcase-figure  picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+@media (max-width:768px) {
+
+    section {
+        padding: 0;
+    }
+
+    section .hero  {
+        grid-template-columns: 1fr;
+        grid-template-areas: 'picture' 'article';
+    }
+
+    section .hero .hero-article {
+        grid-area: article;
+    }
+    
+    section .hero .showcase-figure {
+        grid-area: picture;
+    }
+    
+    section .product-motto .card-container {
+        grid-template-columns: 1fr;
+        row-gap: 48px;
+
+    }
+
+    .showcase {
+        display: grid;
+        grid-template-columns: 1;
+    }
+
+    .showcase {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:'figure' 'article';
+    }
+
+    .showcase .showcase-article {
+        grid-area: article;
+    }
+
+    .showcae .showcase-figure {
+        grid-area: figure;
+    }
+}
+

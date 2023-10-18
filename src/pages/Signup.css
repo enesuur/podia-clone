@@ -1,0 +1,117 @@
+
+
+.signup-section{
+    height: calc(100vh - 64px);
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+}
+
+.signup-wrapper {
+    flex: 1 1 auto;
+    border: 1px solid #d5d7d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.signup .signup-wrapper form {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px;
+    row-gap: 16px;
+    width: 480px;
+}
+
+.signup .signup-wrapper form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup .signup-wrapper form input {
+    display: block;
+    width: 100%;
+    line-height: 1.75;
+    color: #0d161b;
+    background-color: #fff;
+    border: 1px solid #d5d7d9;
+    font-weight: 400;
+    padding: 7.2px 16px;
+    border-radius: 8px;
+}
+
+.signup .signup-wrapper h1 {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.35;
+    color: #0d161b;
+    font-weight: 500;
+    margin-bottom:-2px;
+}
+
+.signup .signup-wrapper .signup-subtitle{
+    text-align: center;
+    font-size: 1.25rem !important;
+    line-height: 1.7777777778 !important;
+    color: var(--font-paragraph-color);
+}
+
+.signup .signup-wrapper label small {
+    font-size: 0.875rem !important;
+    line-height: 1.7142857143 !important;
+    color: #53595c !important;
+    margin-top: 4px;
+}
+
+.btn-signup {
+    background-color: #9979f7;
+    width: 100%;
+    border-color: #9979f7;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: #fff;
+    pointer-events: none;
+    user-select: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.75;
+    cursor:not-allowed;
+}
+
+.signup .signup-wrapper .have-an-account {
+    color: #53595c !important;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.95rem;
+}
+
+.signup .signup-wrapper .have-an-account a {
+    font-size: 0.95rem;
+    color: var(--font-paragraph-color);
+    text-decoration-line: underline;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1px;
+    text-underline-position: under;
+}
+
+@media (max-width:480px){
+
+    .signup-section {
+        padding: 0;
+    }
+
+    .signup .signup-wrapper {
+        border: none;
+        border-top: 1px solid #d5d7d9;
+    }
+
+    .signup .signup-wrapper form {
+        display: flex;
+        flex-direction: column;
+        padding: 8px 16px;
+        row-gap: 16px;
+        width: 100%;
+    }
+}

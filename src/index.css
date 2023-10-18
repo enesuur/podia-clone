@@ -1,13 +1,165 @@
-body {
+*,
+*::before,
+*::after {
+  padding: 0;
+  border: 0;
+  outline: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font: inherit;
+  text-decoration: none;
+  list-style: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+html {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-x: hidden;
+  
+}
+
+:root {
+  --background-color: rgb(253, 251, 249);
+  --primary-color: rgb(75, 42, 173);
+  --primary-darker-color: rgb(32, 20, 69);
+  --secondary-color: rgb(148, 132, 198);
+  --footer-color: rgb(245, 239, 235);
+  --font-primary-color: #1a1715;
+  --font-paragraph-color:#5c5856;
+  --font-secondary-color:rgb(156, 136, 129);
+  --font-size-xl: 1.7777777778rem;
+  --font-size-l: 1.3333333333rem;
+  --font-size-m: 1.1111111111rem;
+  --font-size-s: 1rem;
+  --font-size-xs: 0.8888888889rem;
+  --font-size-xxs: 0.7777777778rem;
+  --font-size-tiny: 0.6666666667rem;
+  --font-size-menu: 0.6666666667rem;
+  --font-size-card-title: 1.1111111111rem;
+}
+
+
+hr {
+  width: 100%;
+  color: black;
+  border: 1px solid var(--primary-color);
+
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--background-color);
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
+  overflow-wrap: break-word;
+}
+
+p {
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+em {
+  font-style: italic;
+}
+
+u {
+  text-decoration: underline;
+}
+
+s {
+  text-decoration: line-through;
+}
+
+small {
+  font-size: 0.875em;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+
+.container,
+.container-m {
+  width: 100%;
+  padding: 0 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  width: 100vw;
+}
+
+
+@media (min-width: 480px) {
+
+  .container,
+  .container-m {
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .container,
+  .container-m {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }

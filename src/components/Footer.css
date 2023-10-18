@@ -1,0 +1,119 @@
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 96px 0px ;
+}
+
+.footer .btn-footer {
+    width: 100%;
+    display: none;
+    justify-content: space-between;
+}
+
+.footer-block {
+    display: flex;
+    align-items: center;
+    line-height: auto;
+}
+
+.footer-block .footer-title {
+    font-family: tiempos,Georgia,Cambria,Palatino,"Times New Roman",Times,serif;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.footer-block .footer-links {
+    margin-left: 16px;
+    display: flex;
+    column-gap: 12px;
+}
+
+.footer-block .footer-links li a  {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.16px;
+    text-underline-position: under;
+    color: #5c5856;
+}
+
+.footer .footer-block:last-child p ,
+.footer .footer-block:last-child li a{
+    color: #5c5856;
+    font-size: 1.2rem;
+}
+
+.footer .footer-block:last-child li {
+    color: #5c5856;
+    margin-left: 8px;
+}
+
+
+@media (max-width:1065px){
+
+    .footer{
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    
+    .footer .btn-footer {
+        display: flex;
+        background-color: var(--footer-color);
+        justify-content: space-between;
+        cursor: pointer;
+        font-size: 1.3rem;
+        font-family: tiempos,Georgia,Cambria,Palatino,"Times New Roman",Times,serif;
+
+    }
+
+    .footer .btn-footer svg {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer .footer-block {
+        padding: 12px 16px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        align-items: flex-start;
+    }
+
+    .footer-title {
+        display: none ;
+    }
+
+ 
+
+    .footer-block .footer-links{
+        font-size: 0.825rem;
+        display: none;
+        flex-direction: column;
+        gap: 12px;
+        margin: 4px 0;
+        position: relative;
+        top: 100%;
+        height: auto;
+        left: 0;
+        display: none;
+    }
+
+    .footer-block .footer-links li a {
+        font-size: 0.95rem;
+    }
+
+    .footer .btn-footer:hover {
+        color: var(--primary-color);
+    }
+
+}
+
+@media (min-width:1065px) {
+    .footer-block .footer-links {
+        display: flex !important;
+    }   
+}
