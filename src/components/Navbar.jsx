@@ -44,7 +44,7 @@ export default function Navbar() {
   const elementStyle =  windowWidth < 1065 ? 'flex' : 'grid';
   return (
     <nav className='container' role='navigation'>
-      <NavLink className={'brand-name'}>podia</NavLink>
+      <NavLink className={'brand-name'}>xodia</NavLink>
       <ul className='left-nav' style={{ display: toggleMobileNav ? 'flex' : 'none' }}>
         <div className='mobile-menu' style={{ display: toggleMobileNav ? 'flex' : 'none' }}>
           <h2 className='mobile-menu-header' >Menu</h2>
@@ -108,7 +108,7 @@ export default function Navbar() {
                   <NavLink to={'#'}>Resources Center</NavLink>
                 </li>
                 <li>
-                  <NavLink to={'/#'}>Hire a Podia pro</NavLink>
+                  <NavLink to={'/#'}>Hire a Xodia pro</NavLink>
                 </li>
                 <li>
                   <NavLink to={'#'}>Creator advice</NavLink>
@@ -125,7 +125,7 @@ export default function Navbar() {
                   <NavLink to={'/#'}>Free Tools</NavLink>
                 </li>
                 <li>
-                  <NavLink to={'/#'}>Podia creator community</NavLink>
+                  <NavLink to={'/#'}>Xodia creator community</NavLink>
                 </li>
                 <li>
                   <NavLink>Help Center</NavLink>

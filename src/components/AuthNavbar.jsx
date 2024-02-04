@@ -8,7 +8,7 @@ export default function AuthNavbar(){
         <nav className='container'>
             <h2 className='auth-nav-header'>
                 <NavLink to={'/'}>
-                    podia
+                    Xodia
                 </NavLink>
             </h2>
             <ul className='auth-nav-items'>

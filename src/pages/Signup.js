@@ -9,7 +9,7 @@ export default function Signup() {
         <section className='signup-section'>
             <div className='signup container'>
                 <div className='signup-wrapper'>
-                    <h1>Sign up for Podia</h1>
+                    <h1>Sign up for Xodia</h1>
                     <p className='signup-subtitle'>Join for free forever. Upgrade anytime!</p>
                     <form>
                         <label htmlFor='user_name'>

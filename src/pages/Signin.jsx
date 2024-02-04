@@ -10,7 +10,7 @@ export default function Signin() {
         <section className='signin-section'>
             <div className='signin container'>
                 <div className='signin-wrapper'>
-                    <h1>Log in to Podia</h1>
+                    <h1>Log in to Xodia</h1>
                     <form>
                         <label htmlFor='user_email'>
                             Email
